@@ -1,19 +1,11 @@
 # Associations
-- organization: Folio3 Software
-  role: Lead Software Engineer
-  year: January 2016 &mdash; Present
-  summary:
-    1. Scrum Master
-    2. Providing Estimates
-    3. Interviewing candidates
-    4. Angular 2.0, ReactJS, BackboneJS
-    5. MongoDB, SQL Server
-    6. ExpressJS
-    7. NodeJS
-    8. ArcGIS Maps SDK
-    9. JavaScript Code Reviewer.
+- organization: Beer for the World
+  role: Volunteer
+  year: 2008 &mdash; Present
+  summary: Organized fund drives and participated in fundraising events for the benefit of families in third world countries without proper access to malt beverages.
 
-- organization: Folio3 Software
-  role: Senior Software Engineer
+
+- organization: Springfield Nuclear Workers Labor Union
+  role: Member in Good Standin
   year: 1994 &mdash; Present
   summary: Founding member of the local nuclear workers labor union.

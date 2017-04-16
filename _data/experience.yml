@@ -1,19 +1,31 @@
 # Jobs
-# Springfield Nuclear Power Plant
-- company: Springfield Nuclear Power Plant
-  position: Safety Inspector
-  duration: Nov, 1980 &mdash; Present
-  summary: Write about your core competencies in one or two sentences describing your position. If you held the position for a long time, it could be a longer section, including a couple bullet points	<ul class="resume-item-list"><li>Ate lots of donuts</li><li>Fell asleep rarely</li><li>Left promptly at end of day (sometimes earlier)</li></ul>
+# Folio3 Software
+- company: Folio3 Software
+  position: Lead Software Engineer
+  duration: January, 2016 &mdash; Present
+  summary: Responsible for the underlying architecture for the software program, as well as for overseeing the work being done by any other software engineers working on the project. <ul><li>Scrum Master</li><li>Providing Estimates</li><li>Interviewing candidates</li><li>Angular 2.0, ReactJS, BackboneJS</li><li>MongoDB, SQL Server</li><li>ExpressJS</li><li>NodeJS</li><li>ArcGIS Maps SDK</li><li>JavaScript Code Reviewer</li></ul>
 
 # Windmill Crank Operator
-- company: Sir Putt-A-Lot's Merrie Olde Fun Centre
-  position: Safety Inspector
+- company: Folio3 Software
+  position: Folio3 Software
   duration:  Jun, 1978 &mdash; Sept, 1979
   summary: If your stint was shorter, feel free to be brief and just call out the most meaningful points of your role. Be concise, and be meaninful. The person reading just needs enough to want to talk to you more about your experience.
 
 
 # Front Desk Attendant
-- company: Simpson Lazer Tag
-  position: Front Desk Attendant
+- company: Folio3 Software
+  position: Folio3 Software
   duration:   Jun, 1975  &mdash; May, 1978
   summary: Boy, when Marge first told me she was going to the Police Academy, I thought it would be fun and exciting, you know, like the movie... Spaceballs. But instead, it's been painful and disturbing, like the movie Police Academy.
+
+
+# Associations
+- organization: Folio3 Software
+  role: Lead Software Engineer
+  year: January 2016 &mdash; Present
+  summary: <ul><li>Scrum Master</li><li>Providing Estimates</li><li>Interviewing candidates</li><li>Angular 2.0, ReactJS, BackboneJS</li><li>MongoDB, SQL Server</li><li>ExpressJS</li><li>NodeJS</li><li>ArcGIS Maps SDK</li><li>JavaScript Code Reviewer</li></ul>
+
+- organization: Folio3 Software
+  role: Senior Software Engineer
+  year: 1994 &mdash; Present
+  summary: Founding member of the local nuclear workers labor union.
