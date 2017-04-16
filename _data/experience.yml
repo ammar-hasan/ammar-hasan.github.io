@@ -1,31 +1,24 @@
 # Jobs
-# Folio3 Software
+# Lead Software Engineer
 - company: Folio3 Software
   position: Lead Software Engineer
   duration: January, 2016 &mdash; Present
-  summary: Responsible for the underlying architecture for the software program, as well as for overseeing the work being done by any other software engineers working on the project. <ul><li>Scrum Master</li><li>Providing Estimates</li><li>Interviewing candidates</li><li>Angular 2.0, ReactJS, BackboneJS</li><li>MongoDB, SQL Server</li><li>ExpressJS</li><li>NodeJS</li><li>ArcGIS Maps SDK</li><li>JavaScript Code Reviewer</li></ul>
+  summary: In charge of multiple software projects; responsible for the underlying architecture for the software program, as well as for overseeing the work being done by any other software engineers working on the project. <ul><li>Scrum Master</li><li>Providing Estimates</li><li>Interviewing candidates</li><li>Angular 2.0, ReactJS, BackboneJS</li><li>MongoDB, SQL Server</li><li>ExpressJS</li><li>NodeJS</li><li>ArcGIS Maps SDK</li><li>JavaScript Code Reviewer</li></ul>
 
-# Windmill Crank Operator
+# Senior Software Engineer
 - company: Folio3 Software
-  position: Folio3 Software
-  duration:  Jun, 1978 &mdash; Sept, 1979
-  summary: If your stint was shorter, feel free to be brief and just call out the most meaningful points of your role. Be concise, and be meaninful. The person reading just needs enough to want to talk to you more about your experience.
+  position: Senior Software Engineer
+  duration: January, 2014 &mdash; December, 2016
+  summary: Contributed in designing, coding and testing of multiple software projects, also mentored few of the resources. <ul> <li>Python: WxWidgets</li> <li>Python: Cross-platform Desktop App for Windows, Linux, OSX</li> <li>JavaScript: BackboneJS</li> <li>JavaScript: TaffyDB</li> <li>HTML5 & CSS3</li> <li>C#: ASP.Net MVC 4</li> </ul>
 
-
-# Front Desk Attendant
+# Software Engineer
 - company: Folio3 Software
-  position: Folio3 Software
-  duration:   Jun, 1975  &mdash; May, 1978
-  summary: Boy, when Marge first told me she was going to the Police Academy, I thought it would be fun and exciting, you know, like the movie... Spaceballs. But instead, it's been painful and disturbing, like the movie Police Academy.
+  position: Software Engineer
+  duration: February, 2012 &mdash; December, 2013
+  summary: Ppplied the principles and techniques of computer science, engineering, and mathematical analysis to the design, development, testing, and evaluation of the software and the systems that enabled computers to perform their many applications.<ul><li>ASP.Net (Web Forms + MVC 4)<li>Html5 + Javascript + CSS3<li>CMS (DotNetNuke)<li>Windows Server 2008<li>Linux + Apache + VSFTPD Setups<li>Amazon Cloud Virtual Machines<li>TeamCity + MsBuild<li>Windows 8 Apps</ul>
 
-
-# Associations
-- organization: Folio3 Software
-  role: Lead Software Engineer
-  year: January 2016 &mdash; Present
-  summary: <ul><li>Scrum Master</li><li>Providing Estimates</li><li>Interviewing candidates</li><li>Angular 2.0, ReactJS, BackboneJS</li><li>MongoDB, SQL Server</li><li>ExpressJS</li><li>NodeJS</li><li>ArcGIS Maps SDK</li><li>JavaScript Code Reviewer</li></ul>
-
-- organization: Folio3 Software
-  role: Senior Software Engineer
-  year: 1994 &mdash; Present
-  summary: Founding member of the local nuclear workers labor union.
+# Trainee Engineer
+- company: Folio3 Software
+  position: Trainee Engineer
+  duration: July, 2011 &mdash; January, 2012
+  summary: Worked as a Trainee Software Engineer in Folio3. The training program included 6-Months training of some of the core subjects and technologies required in Computer Science.
