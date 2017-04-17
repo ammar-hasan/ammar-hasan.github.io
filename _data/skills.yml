@@ -1,12 +1,63 @@
 # Skills
-# Donut design
-- skill: Donut design
-  description: Sprinkle art, icing design, eclair management, taste testing, donut/coffee pairing research
 
-# Craft beer brewing
-- skill: Craft beer brewing
-  description: Hops inspection, brew testing, distribution management, bottle label design, festival and event management
+# Languages
+- skill: Languages
+  description: |
+    <ul>
+      <li>JavaScript</li>
+      <li>Python</li>
+      <li>C++</li>
+      <li>C#</li>
+      <li>VB.Net</li>
+    </ul>
 
-# Family leadership
-- skill: Family leadership
-  description: Bread winning, conflict resolution, couch inspection, TV longevity testing
+# Roles
+- skill: Roles
+  description: |
+    <ul>
+      <li>Frontend Team Leader</li>
+      <li>Scrum Master</li>
+      <li>Providing Estimates</li>
+      <li>Interviewing candidates</li>
+      <li>Code Reviewer</li>
+    </ul>
+
+# Frontend
+- skill: Frontend
+  description: |
+    <ul>
+      <li>NodeJS</li>
+      <li>Electron</li>
+      <li>ReactJS</li>
+      <li>BackboneJS</li>
+      <li>Angular 2+</li>
+      <li>Webpack</li>
+      <li>ExpressJS</li>
+    </ul>
+
+# Databases
+- skill: Databases
+  description: |
+    <ul>
+      <li>SQLite3</li>
+      <li>SQLCipher</li>
+      <li>MongoDB</li>
+      <li>SQL Server</li>
+      <li>LocalStorage</li>
+    </ul>
+
+# ORMs
+- skill: ORMs
+  description: |
+    <ul>
+      <li>Sequelize</li>
+      <li>Entity Framework</li>
+    </ul>
+
+# Integrations
+- skill: Integrations
+  description: |
+    <ul>
+      <li>ArcGIS Maps SDK</li>
+      <li>IPAWS</li>
+    </ul>
