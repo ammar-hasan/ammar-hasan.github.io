@@ -80,13 +80,11 @@
         {% for techgroup in site.data.technologies %}
         <div class="resume-item">
           <h4 class="resume-item-details">{{ techgroup.techgroup }}</h4>
-          <p class="resume-item-copy">
-            <ul class="tags">
-              {% for technology in techgroup.technologies %}
-                <li>{{ technology }}</li>
-              {% endfor %}
-            </ul>
-          </p>
+          <ul class="tags">
+            {% for technology in techgroup.technologies %}
+              <li>{{ technology }}</li>
+            {% endfor %}
+          </ul>
         </div>
         {% endfor %}
 
