@@ -13,7 +13,13 @@ sass:
 # Resume settings
 resume_avatar:                  "true"
 resume_name:                    "Ammar Hasan Razvi"
-resume_title:                   "Javascript Developer (Full Stack/Node.js/React/Frontend), Team Lead at Folio3 Software"
+resume_title:                   |
+  <div>
+    Javascript Developer (Full Stack/Node.js/React/Frontend)
+  </div>
+  <div>
+    Team Lead at Folio3 Software
+  </div>
 resume_contact_email:           "ammar_rizvi@msn.com"
 resume_header_contact_info:     "ammar_rizvi@msn.com"
 resume_header_intro:            |
@@ -39,11 +45,12 @@ resume_looking_for_work:        "yes"
 # comment out to hide
 resume_section_experience:      true
 resume_section_education:       true
-resume_section_projects:        true
+resume_section_projects:        false
 resume_section_skills:          true
-resume_section_recognition:     true
-resume_section_links:           true
-resume_section_associations:    true
+resume_section_technologies:    true
+resume_section_recognition:     false
+resume_section_links:           false
+resume_section_associations:    false
 
 # Resume social links
 # uncomment the options you wish to display, and add your own URL

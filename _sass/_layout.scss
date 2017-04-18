@@ -77,11 +77,11 @@ ul.tags {
   padding: 0;
   li {
     background: #0084bf;
-    padding: 3px 5px 3px 5px;
-    border-radius: 4px;
+    padding: 0.19rem 0.32rem 0.19rem 0.32rem;
+    border-radius: 0.25rem;
     list-style-type: none;
     float: left;
-    margin: 5px;
+    margin: 0.32rem;
     color: white;
   }
   &::after {

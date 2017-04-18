@@ -1,16 +1,5 @@
 # Skills
 
-# Languages
-- skill: Languages
-  description: |
-    <ul class="tags">
-      <li>JavaScript</li>
-      <li>Python</li>
-      <li>C++</li>
-      <li>C#</li>
-      <li>VB.Net</li>
-    </ul>
-
 # Roles
 - skill: Roles
   description: |
@@ -20,44 +9,4 @@
       <li>Providing Estimates</li>
       <li>Interviewing candidates</li>
       <li>Code Reviewer</li>
-    </ul>
-
-# Frontend
-- skill: Frontend
-  description: |
-    <ul class="tags">
-      <li>NodeJS</li>
-      <li>Electron</li>
-      <li>ReactJS</li>
-      <li>BackboneJS</li>
-      <li>Angular 2+</li>
-      <li>Webpack</li>
-      <li>ExpressJS</li>
-    </ul>
-
-# Databases
-- skill: Databases
-  description: |
-    <ul class="tags">
-      <li>SQLite3</li>
-      <li>SQLCipher</li>
-      <li>MongoDB</li>
-      <li>SQL Server</li>
-      <li>LocalStorage</li>
-    </ul>
-
-# ORMs
-- skill: ORMs
-  description: |
-    <ul class="tags">
-      <li>Sequelize</li>
-      <li>Entity Framework</li>
-    </ul>
-
-# Integrations
-- skill: Integrations
-  description: |
-    <ul class="tags">
-      <li>ArcGIS Maps SDK</li>
-      <li>IPAWS</li>
     </ul>
