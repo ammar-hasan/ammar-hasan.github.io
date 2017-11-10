@@ -11,7 +11,7 @@
 
         <!-- You can turn off the avatar in _config.yml by setting to false -->
         {% if site.resume_avatar == 'true' %}
-        <img src="images/avatar.jpg" alt="my photo" class="avatar no-print" itemprop="image">
+        <img src="images/avatar.jpg" alt="my photo" class="avatar" itemprop="image">
         {% endif %}
 
         <!-- Your name is defined in the '_config.yml' file -->
@@ -22,16 +22,18 @@
           <p>{{ site.resume_header_contact_info }}</p>
         </div>
 
-        <div class="title-bar no-print">
+        <div class="title-bar">
 
           <!-- Your title is also defined in the _config.yml file -->
           <h2 class="header-title" itemprop="jobTitle">{{ site.resume_title }}</h2>
 
           <!-- This is the markup for the icon links; moved out to an include because it's very verbose, and you shouldn't ever need to edit the markup (unless you want to re-order the icons); if you want to customize which links appear, define them in the _config.yml file -->
-          {% include icon-links.html %}
+          <div class="no-print">
+            {% include icon-links.html %}
+          </div>
         </div>
 
-        <div class="executive-summary no-print" itemprop="description">
+        <div class="executive-summary" itemprop="description">
           {{ site.resume_header_intro }}
         </div>
 
@@ -55,7 +57,11 @@
         {% for job in site.data.experience %}
         <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
           <h3 class="resume-item-title" itemprop="name">{{ job.company }}</h3>
-          <h4 class="resume-item-details" itemprop="description"><span style="display: block; float:left;">{{ job.position }}</span><span style="display: block; float:right;">{{ job.duration }}</span></h4><br/>
+          <h4 class="resume-item-details" itemprop="description">
+            <span style="display: block; float:left;">{{ job.position }}</span>
+            <span style="display: block; float:right;">{{ job.duration }}</span>
+          </h4>
+          <br/>
           <p class="resume-item-copy" style="clear: both;">{{ job.summary }}</p>
         </div><!-- end of resume-item -->
         {% endfor %}
@@ -64,44 +70,26 @@
       <!-- end Experience -->
       {% endif %}
 
-
-      {% if site.resume_section_education %}
-      <!-- begin Education -->
+      {% if site.resume_section_technologies %}
+      <!-- begin Technologies -->
       <section class="content-section">
+
         <header class="section-header">
-          <h2>Education</h2>
+          <h2>Experience - Technologies Used</h2>
         </header>
-
-        {% for education in site.data.education %}
-        <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/CollegeOrUniversity">
-          <h3 class="resume-item-title" itemprop="name">{{ education.uni }}</h3>
-          <h4 class="resume-item-details" itemprop="description"><span style="display: block; float:left;">{{ education.degree }}</span><span style="display: block; float:right;">{{ education.year }}</span></h4>
-          <h5 class="resume-item-details" itemprop="description">{{ education.awards }}</h5>
-          <p class="resume-item-copy">{{ education.summary }}</p>
-        </div>
-        {% endfor %}
-      </section>
-      <!-- end Education -->
-      {% endif %}
-
-
-      {% if site.resume_section_projects %}
-      <!-- begin Projects -->
-      <section class="content-section">
-        <header class="section-header">
-          <h2>Projects</h2>
-        </header>
-
-        {% for project in site.data.projects %}
-        <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
-          <h3 class="resume-item-title" itemprop="name">{{ project.project }}</h3>
-          <h4 class="resume-item-details" itemprop="description"><span style="display: block; float:left;">{{ project.role }}</span><span style="display: block; float:right;">{{ project.duration }}</span></h4><br/>
-          <p class="resume-item-copy" style="clear: both;">{{ project.description }}</p>
+        {% for techgroup in site.data.technologies %}
+        <div class="resume-item">
+          <h4 class="resume-item-details">{{ techgroup.techgroup }}</h4>
+          <ul class="tags">
+            {% for technology in techgroup.technologies %}
+              <li>{{ technology }}</li>
+            {% endfor %}
+          </ul>
         </div>
         {% endfor %}
 
       </section>
-      <!-- end Projects -->
+      <!-- end Technologies -->
       {% endif %}
 
       {% if site.resume_section_skills %}
@@ -120,6 +108,54 @@
 
       </section>
       <!-- end Skills -->
+      {% endif %}
+
+
+      {% if site.resume_section_education %}
+      <!-- begin Education -->
+      <section class="content-section">
+        <header class="section-header">
+          <h2>Education</h2>
+        </header>
+
+        {% for education in site.data.education %}
+        <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/CollegeOrUniversity">
+          <h3 class="resume-item-title" itemprop="name">{{ education.uni }}</h3>
+          <h4 class="resume-item-details clearfix" itemprop="description">
+            <span style="display: block; float:left;">
+              {{ education.degree }}
+            </span>
+            <span style="display: block; float:right;">
+              {{ education.year }}
+            </span>
+          </h4>
+          {% if education.awards %}
+            <h5 class="resume-item-details" itemprop="description">{{ education.awards }}</h5>
+          {% endif %}
+          <p class="resume-item-copy">{{ education.summary }}</p>
+        </div>
+        {% endfor %}
+      </section>
+      <!-- end Education -->
+      {% endif %}
+
+      {% if site.resume_section_projects %}
+      <!-- begin Projects -->
+      <section class="content-section">
+        <header class="section-header">
+          <h2>Projects</h2>
+        </header>
+
+        {% for project in site.data.projects %}
+        <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
+          <h3 class="resume-item-title" itemprop="name">{{ project.project }}</h3>
+          <h4 class="resume-item-details" itemprop="description"><span style="display: block; float:left;">{{ project.role }}</span><span style="display: block; float:right;">{{ project.duration }}</span></h4><br/>
+          <p class="resume-item-copy" style="clear: both;">{{ project.description }}</p>
+        </div>
+        {% endfor %}
+
+      </section>
+      <!-- end Projects -->
       {% endif %}
 
       {% if site.resume_section_recognition %}
@@ -199,8 +235,7 @@
       {% endif %}
 
       <footer class="page-footer">
-        <p class="footer-line">Made by <a href="http://twitter.com/jglovier">@jglovier</a>. Fork me on <a href="https://github.com/jglovier/resume-template">GitHub</a>.</p>
-        <p class="footer-line">If this is your live resume, you can modify or remove this part. ;-)</p>
+        <p class="footer-line">Professional resume of <a href="http://twitter.com/ammarhasanrizvi">@ammarhasanrizvi</a>. Follow me on <a href="https://github.com/ammar-hasan">GitHub</a>.</p>
       </footer>
 
     </div>

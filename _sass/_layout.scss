@@ -72,3 +72,27 @@
   padding-left: $grid-gutter;
   vertical-align: top;
 }
+
+ul.tags {
+  padding: 0;
+  li {
+    background: #0084bf;
+    padding: 0.19rem 0.32rem 0.19rem 0.32rem;
+    border-radius: 0.25rem;
+    list-style-type: none;
+    float: left;
+    margin: 0.32rem;
+    color: white;
+  }
+  &::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
